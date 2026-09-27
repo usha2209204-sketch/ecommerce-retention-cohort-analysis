@@ -12,7 +12,7 @@ build/
 develop-eggs/
 dist/
 downloads/
-eggs/
+egss/
 .eggs/
 lib/
 lib64/
@@ -25,58 +25,28 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-PIPFILE.lock
 
 # PyInstaller
 *.manifest
 *.spec
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# Environments
+# Virtual environments
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
-env.bak/
-venv.bak/
 
-# IDE
+# IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 .DS_Store
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
 
 # Data files
 *.csv
-*.parquet
-*.xlsx
-*.xls
-
-# Power BI cache
-.Analysis-Cache
 
 # Logs
 *.log
-logs/
-
-# MacOS
-.DS_Store
-.AppleDouble
-.LSOverride

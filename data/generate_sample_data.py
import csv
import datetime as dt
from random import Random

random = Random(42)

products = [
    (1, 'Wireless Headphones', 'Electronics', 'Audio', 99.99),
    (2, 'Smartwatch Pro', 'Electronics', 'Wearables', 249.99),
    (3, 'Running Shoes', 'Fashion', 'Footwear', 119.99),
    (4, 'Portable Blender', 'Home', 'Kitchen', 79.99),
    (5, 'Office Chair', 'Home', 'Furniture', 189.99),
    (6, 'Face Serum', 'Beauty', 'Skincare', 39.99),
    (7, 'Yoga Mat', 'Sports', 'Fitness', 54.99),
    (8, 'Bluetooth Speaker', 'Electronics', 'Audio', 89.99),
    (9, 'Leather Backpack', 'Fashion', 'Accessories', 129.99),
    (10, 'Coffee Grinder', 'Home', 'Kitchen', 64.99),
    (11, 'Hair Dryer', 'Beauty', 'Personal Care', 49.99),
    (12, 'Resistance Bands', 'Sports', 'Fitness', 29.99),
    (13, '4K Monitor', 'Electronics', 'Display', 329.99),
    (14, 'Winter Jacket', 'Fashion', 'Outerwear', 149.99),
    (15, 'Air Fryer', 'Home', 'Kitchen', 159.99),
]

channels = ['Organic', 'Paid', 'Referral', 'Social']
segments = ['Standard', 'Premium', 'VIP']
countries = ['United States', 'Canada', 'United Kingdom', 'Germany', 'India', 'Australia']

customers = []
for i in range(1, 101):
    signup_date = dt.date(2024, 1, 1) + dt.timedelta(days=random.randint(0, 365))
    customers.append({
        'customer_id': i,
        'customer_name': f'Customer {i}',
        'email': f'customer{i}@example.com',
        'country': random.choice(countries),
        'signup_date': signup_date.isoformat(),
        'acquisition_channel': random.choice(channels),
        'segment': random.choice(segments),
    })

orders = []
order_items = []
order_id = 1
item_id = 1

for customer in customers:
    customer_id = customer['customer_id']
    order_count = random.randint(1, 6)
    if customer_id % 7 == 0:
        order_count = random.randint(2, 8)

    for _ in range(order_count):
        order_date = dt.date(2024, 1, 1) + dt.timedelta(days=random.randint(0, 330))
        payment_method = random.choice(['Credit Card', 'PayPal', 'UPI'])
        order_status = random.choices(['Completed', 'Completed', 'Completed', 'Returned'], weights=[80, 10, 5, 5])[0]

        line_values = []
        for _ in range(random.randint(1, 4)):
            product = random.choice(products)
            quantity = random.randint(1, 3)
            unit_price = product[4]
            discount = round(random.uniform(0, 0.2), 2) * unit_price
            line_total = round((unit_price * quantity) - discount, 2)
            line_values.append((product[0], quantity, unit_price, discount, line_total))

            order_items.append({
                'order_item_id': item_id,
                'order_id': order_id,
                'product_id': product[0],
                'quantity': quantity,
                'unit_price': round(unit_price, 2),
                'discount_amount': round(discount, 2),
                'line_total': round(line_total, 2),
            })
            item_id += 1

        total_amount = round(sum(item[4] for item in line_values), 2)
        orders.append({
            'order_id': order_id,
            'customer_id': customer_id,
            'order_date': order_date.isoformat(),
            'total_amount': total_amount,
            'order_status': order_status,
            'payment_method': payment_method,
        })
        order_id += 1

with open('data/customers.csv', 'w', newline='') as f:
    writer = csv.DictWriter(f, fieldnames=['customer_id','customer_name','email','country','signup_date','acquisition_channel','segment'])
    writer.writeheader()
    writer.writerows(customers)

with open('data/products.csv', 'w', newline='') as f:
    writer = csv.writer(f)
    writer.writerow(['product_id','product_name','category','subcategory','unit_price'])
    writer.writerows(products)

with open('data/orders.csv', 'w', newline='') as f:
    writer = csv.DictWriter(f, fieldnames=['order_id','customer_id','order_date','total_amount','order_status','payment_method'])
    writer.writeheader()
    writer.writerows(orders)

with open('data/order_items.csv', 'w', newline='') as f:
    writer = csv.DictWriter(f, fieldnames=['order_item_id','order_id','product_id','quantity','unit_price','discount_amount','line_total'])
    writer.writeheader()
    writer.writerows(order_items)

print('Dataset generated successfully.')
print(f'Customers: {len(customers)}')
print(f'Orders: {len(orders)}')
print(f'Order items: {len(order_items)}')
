@@ -1,0 +1,33 @@
+# E-commerce Retention Analysis
+
+## Overview
+
+This project analyzes a synthetic e-commerce dataset to assess customer retention, repeat purchases, and cohort performance.
+
+## File structure
+
+```text
+data/
+├── generate_sample_data.py
+├── customers.csv
+├── orders.csv
+├── order_items.csv
+├── products.csv
+```
+
+## Data generation script
+
+The data is generated using a reproducible Python script. It creates realistic customer acquisition patterns over multiple months and a mixture of repeat and one-time buyers.
+
+Run:
+
+```bash
+python data/generate_sample_data.py
+```
+
+## Notes
+
+- Customers are assigned acquisition channels: Organic, Paid, Referral, Social.
+- Product categories include Electronics, Fashion, Home, Beauty, Sports.
+- Orders are distributed over several months and include a mix of return and repeat behaviors.
+- The dataset is intentionally synthetic and suitable for SQL and Python analysis.

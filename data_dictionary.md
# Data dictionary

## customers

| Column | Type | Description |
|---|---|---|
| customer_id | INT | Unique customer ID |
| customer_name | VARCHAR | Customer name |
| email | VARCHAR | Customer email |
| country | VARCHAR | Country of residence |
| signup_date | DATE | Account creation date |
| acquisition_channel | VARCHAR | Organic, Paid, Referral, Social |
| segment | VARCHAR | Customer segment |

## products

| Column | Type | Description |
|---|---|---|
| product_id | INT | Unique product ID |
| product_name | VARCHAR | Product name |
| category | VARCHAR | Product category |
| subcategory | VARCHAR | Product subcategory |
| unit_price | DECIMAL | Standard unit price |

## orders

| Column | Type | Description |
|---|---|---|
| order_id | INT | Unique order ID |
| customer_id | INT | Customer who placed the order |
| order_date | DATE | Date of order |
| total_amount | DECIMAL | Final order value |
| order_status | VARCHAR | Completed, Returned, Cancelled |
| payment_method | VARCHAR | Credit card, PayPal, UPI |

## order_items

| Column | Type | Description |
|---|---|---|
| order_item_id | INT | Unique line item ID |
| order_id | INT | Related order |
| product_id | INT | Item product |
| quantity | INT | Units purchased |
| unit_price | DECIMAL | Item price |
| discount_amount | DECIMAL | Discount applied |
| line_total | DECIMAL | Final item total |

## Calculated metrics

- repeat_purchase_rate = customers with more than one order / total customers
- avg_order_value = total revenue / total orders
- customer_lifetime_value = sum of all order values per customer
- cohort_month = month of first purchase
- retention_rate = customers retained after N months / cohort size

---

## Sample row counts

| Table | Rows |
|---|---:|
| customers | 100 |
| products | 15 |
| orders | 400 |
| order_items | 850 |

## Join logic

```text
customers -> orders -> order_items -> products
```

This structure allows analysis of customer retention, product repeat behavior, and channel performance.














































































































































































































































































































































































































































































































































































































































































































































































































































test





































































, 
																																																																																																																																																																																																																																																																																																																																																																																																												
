@@ -1,0 +1,96 @@
+# E-commerce Customer Retention and Cohort Analysis
+
+This repository contains a complete end-to-end project focused on e-commerce retention, customer cohorts, and repeat purchase analysis.
+
+## Business objective
+
+Identify which customer segments generate repeat revenue and which cohorts are at risk of churn. The project demonstrates how to analyze retention using SQL and Python, and how to present the story using dashboards.
+
+## Dataset
+
+The repository includes a synthetic e-commerce dataset modeled to match typical retail behavior:
+- customers
+- orders
+- order_items
+- products
+
+## Analytics included
+
+- Monthly revenue and order trends
+- New vs returning customers
+- Repeat purchase rate
+- Average order value (AOV)
+- Customer lifetime value (CLV)
+- Cohort retention matrix
+- Top products by repeat-purchase rate
+- RFM segmentation
+
+## Repository structure
+
+```text
+ecommerce-retention-analysis/
+├── README.md
+├── data_dictionary.md
+├── requirements.txt
+├── data/
+│   ├── generate_sample_data.py
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── order_items.csv
+│   └── products.csv
+├── sql/
+│   ├── 01_customer_metrics.sql
+│   ├── 02_cohort_analysis.sql
+│   ├── 03_rfm_segmentation.sql
+│   ├── 04_repeat_purchase_analysis.sql
+│   └── 05_product_analysis.sql
+├── notebooks/
+│   └── exploratory_analysis.ipynb
+├── powerbi/
+│   └── retention_dashboard.pbix
+├── images/
+│   └── README.md
+└── .gitignore
+```
+
+## Quick start
+
+1. Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Generate the sample dataset:
+
+```bash
+python data/generate_sample_data.py
+```
+
+3. Load the data into PostgreSQL/MySQL/SQLite.
+
+4. Run the SQL scripts in order:
+
+```bash
+psql -U postgres -d ecommerce -f sql/01_customer_metrics.sql
+psql -U postgres -d ecommerce -f sql/02_cohort_analysis.sql
+psql -U postgres -d ecommerce -f sql/03_rfm_segmentation.sql
+```
+
+5. Open the notebook in Jupyter to explore the results.
+
+## SQL skills showcased
+
+- Joins
+- CTEs
+- Window functions
+- Date functions
+- Aggregations
+- Conditional logic
+
+## Resume-ready summary
+
+- Analyzed e-commerce transaction data using SQL to calculate repeat-purchase rate, CLV, RFM segments, and monthly retention.
+- Built a cohort-based retention model using CTEs, date functions, and window functions.
+- Developed a dashboard concept to track revenue, orders, AOV, retention, and customer segments.
+- Identified high-value customer segments and products for targeted retention campaigns.

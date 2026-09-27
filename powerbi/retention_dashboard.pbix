@@ -1,0 +1,12 @@
+Power BI project placeholder for the retention dashboard.
+
+This file is a placeholder because a .pbix file is a binary Power BI Desktop project file.
+Use Power BI Desktop to create the final dashboard based on the SQL outputs and CSV data in this repository.
+
+Recommended visuals:
+- monthly revenue trend
+- retention heatmap
+- RFM segmentation chart
+- repeat purchase rate donut chart
+- cohort matrix
+- top product list
