@@ -3,50 +3,26 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-egss/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
+# Environments
+.venv/
+venv/
+.env
 
 # Jupyter
 .ipynb_checkpoints
 
-# Virtual environments
-.env
-.venv/
-env/
-venv/
-ENV/
-
-# IDE files
+# IDE
 .vscode/
 .idea/
 .DS_Store
 
-# Data files
-*.csv
+# Python build artifacts
+build/
+dist/
+*.egg-info/
 
 # Logs
 *.log
+
+# OS files
+Thumbs.db
